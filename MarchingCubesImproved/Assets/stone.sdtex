@@ -1,6 +1,6 @@
 !Texture
 Id: c0816670-076e-46ea-9383-4f1dc096176c
-SerializedVersion: {Xenko: 2.0.0.0}
+SerializedVersion: {Stride: 2.0.0.0}
 Tags: []
 Source: !file ../Resources/stone.jpg
 Type: !ColorTextureType

@@ -1,10 +1,10 @@
-﻿using System;
-using Xenko.Core;
-using Xenko.Core.Mathematics;
-using Xenko.Engine;
-using Xenko.Games;
-using Xenko.Input;
-using Xenko.Physics;
+using System;
+using Stride.Core;
+using Stride.Core.Mathematics;
+using Stride.Engine;
+using Stride.Games;
+using Stride.Input;
+using Stride.Physics;
 
 namespace MarchingCubesImproved
 {

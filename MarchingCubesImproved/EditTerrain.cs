@@ -1,8 +1,8 @@
 using System.Threading.Tasks;
-using Xenko.Core.Mathematics;
-using Xenko.Engine;
-using Xenko.Input;
-using Xenko.Physics;
+using Stride.Core.Mathematics;
+using Stride.Engine;
+using Stride.Input;
+using Stride.Physics;
 
 namespace MarchingCubesImproved
 {

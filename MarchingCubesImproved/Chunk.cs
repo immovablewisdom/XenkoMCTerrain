@@ -1,8 +1,8 @@
-﻿using Xenko.Core.Mathematics;
-using Xenko.Engine;
-using Xenko.Graphics;
-using Xenko.Physics;
-using Xenko.Rendering;
+using Stride.Core.Mathematics;
+using Stride.Engine;
+using Stride.Graphics;
+using Stride.Physics;
+using Stride.Rendering;
 
 namespace MarchingCubesImproved
 {
@@ -114,13 +114,13 @@ namespace MarchingCubesImproved
 
         private void CreateMesh()
         {
-            var vbo = Xenko.Graphics.Buffer.Vertex.New(
+            var vbo = Stride.Graphics.Buffer.Vertex.New(
                 GraphicsDevice,
                 verts,
                 GraphicsResourceUsage.Dynamic
             );
 
-            var ibo = Xenko.Graphics.Buffer.Index.New(
+            var ibo = Stride.Graphics.Buffer.Index.New(
                 GraphicsDevice,
                 tris,
                 GraphicsResourceUsage.Dynamic
@@ -164,8 +164,7 @@ namespace MarchingCubesImproved
         {
             _colliderComponent = new StaticColliderComponent();
 
-            var shape = new StaticMeshColliderShape(colVerts, tris,
-                Vector3.One);
+            var shape = new StaticMeshColliderShape(colVerts, tris);//, Vector3.One);
 
             _colliderComponent.ColliderShape = shape;
             _colliderComponent.CanSleep = true;

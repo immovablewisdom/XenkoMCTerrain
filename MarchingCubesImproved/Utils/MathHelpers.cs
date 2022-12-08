@@ -1,8 +1,8 @@
 using System;
-using Xenko.Core.Mathematics;
-using Xenko.Engine;
-using Xenko.Graphics;
-using Xenko.Physics;
+using Stride.Core.Mathematics;
+using Stride.Engine;
+using Stride.Graphics;
+using Stride.Physics;
 
 namespace MarchingCubesImproved
 {

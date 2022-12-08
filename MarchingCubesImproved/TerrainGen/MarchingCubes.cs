@@ -1,5 +1,5 @@
-using Xenko.Core.Mathematics;
-using Xenko.Graphics;
+using Stride.Core.Mathematics;
+using Stride.Graphics;
 
 namespace MarchingCubesImproved
 {
